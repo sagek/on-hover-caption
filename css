@@ -1,0 +1,24 @@
+.item {
+    width: 220px;
+    height: 220px;
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.item .caption {
+    width: 220px;
+    height: 220px;
+    background: none repeat scroll 0% 0% rgb(230, 245, 245);
+    position: absolute;
+    left: 0px;
+    display: none;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.item .caption p {
+    padding: 10px !important;
+    margin: 0px;
+    font-size: 12px;
+    color: rgb(81, 51, 15);
+}
